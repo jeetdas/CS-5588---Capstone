@@ -1,31 +1,51 @@
-# CS-5588 - Capstone - Group 3
+# CS-5588 Capstone Project - Group 3
 
-## Project Description: Enhanced Retrieval and Generation System for Civil Engineering Reference Manuals
+Welcome to the future of Civil Engineering information access! Our project, the "Enhanced Retrieval and Generation System for Civil Engineering Reference Manuals," is here to revolutionize the way professionals interact with vast repositories of knowledge. This README is your guide to getting started with our project, so buckle up and let's embark on this technological adventure!
 
-The project is designed to change the way civil engineers and professionals access critical information within extensive reference manuals. Traditional manuals, often spanning thousands of pages and encompassing various forms of media, present a formidable challenge when searching for specific details promptly. This project aims to address this hurdle by developing an end-to-end system powered by cutting-edge technology.
+## Getting Started
 
-## Project Objective
-The primary objective of this project is to create a comprehensive system that empowers civil engineers and related personnel to efficiently retrieve essential information from vast and intricate reference manuals. Leveraging the capabilities of large language models (LLMs), users will be able to submit queries in natural language. The system will then employ advanced retrieval techniques, augmented with generation, to extract and present essential information in an easily understandable format.
+To run the Jupyter Notebook in `exp1.ipynb`, make sure you have the required libraries installed. You can install them using the following commands:
 
-## Key Features
-- Natural Language Querying: Users can input questions using everyday language, streamlining the search process.
-- Information Retrieval and Generation: The system combines information retrieval and generation techniques to extract accurate answers from dense reference materials.
-- Customizable Responses: Optionally, the system can tailor responses based on user-defined parameters, offering personalized outputs.
-- Easy Integration: The system will be provided as an API, enabling seamless integration into existing workflows.
+```bash
+pip install langchain
+pip install openai
+pip install tiktoken
+pip install PyPDF2
+pip install faiss-cpu
+pip install -q nougat-ocr
+```
 
-## Target Audience
-This project caters to civil engineers and professionals working within the domain, providing them with a powerful tool to access vital information within reference manuals swiftly.
+Now you're all set to dive into the exciting world of our project!
 
-## Unique Selling Points
-This project's innovation lies in its ability to conquer the challenges posed by unwieldy reference manuals. By offering a rapid and accurate means of retrieval, the system is poised to save significant time and effort for users, ultimately enhancing productivity and decision-making.
+## Project Overview
 
-## Technologies Utilized
-The project utilizes decoder-style large language models, such as the GPT family, for text generation. Vector databases store vectorized documents, while FastAPI facilitates the delivery of information through a user-friendly REST API. Explorations into the applications of encoder-style LLMs (like BERT) for information retrieval and the integration of fine-tuned LLMs for specific tasks are also planned.
+### Objective
 
-## Project Deliverables
-The project will culminate in the creation of an accessible API that enables users to seamlessly query extensive reference documents and receive concise, relevant responses.
+Our primary goal is to make life easier for civil engineers by developing a system that swiftly retrieves essential information from complex reference manuals. Say goodbye to flipping through thousands of pages; our system understands natural language queries and delivers precise answers.
 
-## Team
-The project is led by Jeet Das, who is responsible for the system's development, implementation, and deployment. I am currently a PhD student under Dr. Shu-Ching Chen and this project is in collaboration with him.
+### Key Features
 
-As the project progresses, milestones and timelines will be established to ensure steady progress and successful achievement of the project's objectives. 
+- **Natural Language Querying:** Ask questions using everyday language.
+- **Information Retrieval and Generation:** Extract accurate answers using cutting-edge techniques.
+- **Customizable Responses:** Tailor responses based on your preferences.
+- **Easy Integration:** Seamlessly integrate the system into your existing workflows through our API.
+
+### Target Audience
+
+This project is tailor-made for civil engineers and professionals in the field who need quick and reliable access to crucial information within reference manuals.
+
+### Unique Selling Points
+
+Our innovation lies in conquering the challenges of navigating extensive reference manuals. By providing rapid and accurate retrieval, we save you time and effort, boosting productivity and decision-making.
+
+### Technologies Utilized
+
+We employ decoder-style large language models (like GPT), vector databases for efficient storage, and FastAPI for a user-friendly API. We're also exploring the power of encoder-style LLMs (like BERT) for information retrieval and fine-tuned LLMs for specific tasks.
+
+## How to Contribute
+
+This project is led by the visionary Jeet Das, with guidance from the esteemed Dr. Shu-Ching Chen. We welcome contributions and feedback as we work together to make this system even more amazing.
+
+As we progress, we'll set milestones and timelines to keep the momentum going and ensure the successful achievement of our objectives.
+
+So, are you ready to be a part of the future of Civil Engineering information retrieval? Let's build something extraordinary together!
