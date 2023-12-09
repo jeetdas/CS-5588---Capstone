@@ -4,7 +4,7 @@ Welcome to the future of Civil Engineering information access! Our project, the 
 
 ## Architecture
 
-# <img src="methodology.png" alt="architecture" width="100"> Your Title Here
+# <img src="methodology.png" alt="architecture" width="300">
 
 ## Getting Started
 
