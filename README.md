@@ -2,6 +2,10 @@
 
 Welcome to the future of Civil Engineering information access! Our project, the "Enhanced Retrieval and Generation System for Civil Engineering Reference Manuals," is here to revolutionize the way professionals interact with vast repositories of knowledge. This README is your guide to getting started with our project, so buckle up and let's embark on this technological adventure!
 
+## Architecture
+
+# <img src="methodology.png" alt="architecture" width="100"> Your Title Here
+
 ## Getting Started
 
 To run the Jupyter Notebook in `exp1.ipynb`, make sure you have the required libraries installed. You can install them using the following commands:
