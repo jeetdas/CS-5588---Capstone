@@ -6,10 +6,6 @@ Welcome to the future of Civil Engineering information access! Our project, the 
 
 # <img src="methodology.png" alt="architecture" width="1000">
 
-## Areas of exploration
-
-# <img src="moe.png" alt="architecture 2" width="1000">
-
 ## Getting Started
 
 To run the Jupyter Notebook in `exp1.ipynb`, make sure you have the required libraries installed. You can install them using the following commands:
@@ -49,6 +45,10 @@ Our innovation lies in conquering the challenges of navigating extensive referen
 ### Technologies Utilized
 
 We employ decoder-style large language models (like GPT), vector databases for efficient storage, and FastAPI for a user-friendly API. We're also exploring the power of encoder-style LLMs (like BERT) for information retrieval and fine-tuned LLMs for specific tasks.
+
+## Areas of exploration
+
+# <img src="moe.png" alt="architecture 2" width="1000">
 
 ## How to Contribute
 
